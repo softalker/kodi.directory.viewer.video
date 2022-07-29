@@ -1,0 +1,2 @@
+# kodi
+Softalks Kodi components
