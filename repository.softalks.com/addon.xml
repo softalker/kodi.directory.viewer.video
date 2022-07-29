@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.softalks.com" name="Softalks Kodi Components" version="1.0.0" provider-name="Santiago Ruiz">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Softalks Kodi Components">
+            <info compressed="false">https://softalks.github.io/kodi/_repo/addons.xml</info>
+            <checksum>https://softalks.github.io/kodi/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://softalks.github.io/kodi/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Kodi add-ons developed by Softalks</summary>
+            <description>A collection of freely available Kodi add-ons that you can use at your own risk</description>
+            <platform>all</platform>
+    </extension>
+</addon>
