@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.tree-browser_softalks.com" version="1.0.0"
-	name="Video Tree Browser" provider-name="Roberto Almandós Rey">
+<addon id="plugin.video.tree-browser" version="1.0.0"
+	name="Video Tree Browser" provider-name="Santiago Ruiz">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
@@ -14,9 +14,9 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot>resources\screenshot-01.jpg</screenshot>
-			<screenshot>resources\screenshot-02.jpg</screenshot>
-			<screenshot>resources\screenshot-03.jpg</screenshot>
+			<screenshot>resources\screenshot-001.jpg</screenshot>
+			<screenshot>resources\screenshot-002.jpg</screenshot>
+			<screenshot>resources\screenshot-003.jpg</screenshot>
 		</assets>
 		<news>You can now configure this add-on to use regular expressions for hiding order numbers in folder names (often used to ensure a particular order for a set of subfolders)</news>
 	</extension>

@@ -4,14 +4,14 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Softalks Kodi Components">
-            <info compressed="false">https://raw.githubusercontent.com/Your-Github-Username/repository-link/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Your-Github-Username/repository-link/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Your-Github-Username/repository-link/_repo/</datadir>
+            <info compressed="false">https://softalks.github.io/kodi/_repo/addons.xml</info>
+            <checksum>https://softalks.github.io/kodi/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://softalks.github.io/kodi/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Kodi add-ons developed by Softalks</summary>
-            <description>Freely available Add-ons developed by Softalks that you can use at your own risk</description>
+            <description>A collection of freely available Kodi add-ons that you can use at your own risk</description>
             <platform>all</platform>
     </extension>
 </addon>
