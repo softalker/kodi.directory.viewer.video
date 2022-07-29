@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.tree-browser_softalks.com" version="1.0.0"
+	name="Video Tree Browser" provider-name="Roberto Almandós Rey">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Focus only on real video folders</summary>
+		<description lang="en_GB">This Kodi add-on provides easy browsing of a (local) folder hierarchy of videos by hiding the folders having no videos and showing folders with one only video as if they were video files</description>
+		<disclaimer lang="en_GB">You must set the root of the tree before using this plugin</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources\screenshot-01.jpg</screenshot>
+			<screenshot>resources\screenshot-02.jpg</screenshot>
+			<screenshot>resources\screenshot-03.jpg</screenshot>
+		</assets>
+		<news>You can now configure this add-on to use regular expressions for hiding order numbers in folder names (often used to ensure a particular order for a set of subfolders)</news>
+	</extension>
+</addon>
+
+    <addon id="repository.softalks.com" name="Softalks Kodi Components" version="1.0.0" provider-name="Santiago Ruiz">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Softalks Kodi Components">
+            <info compressed="false">https://raw.githubusercontent.com/Your-Github-Username/repository-link/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Your-Github-Username/repository-link/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Your-Github-Username/repository-link/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Kodi add-ons developed by Softalks</summary>
+            <description>Freely available Add-ons developed by Softalks that you can use at your own risk</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
